@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Chess</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chess.js@0.10.3/chess.min.js"></script>
+  <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+</head>
+<body>
+  <h1>1v1 Chess</h1>
+  
+  <div id="controls">
+    <input id="roomId" placeholder="Room ID" />
+    <button id="joinBtn">Join Game</button>
+  </div>
+
+  <div id="gameInfo">
+    <div id="turnIndicator">Enter a room to start playing</div>
+  </div>
+
+  <div id="board" style="width: 400px"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

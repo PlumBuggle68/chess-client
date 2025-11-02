@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #controls {
+    margin-bottom: 15px;
+  }
+  
+  #gameInfo {
+    margin-bottom: 15px;
+  }
+  
+  #turnIndicator {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: inline-block;
+    min-width: 200px;
+  }
+  
